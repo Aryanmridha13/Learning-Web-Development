@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(97, 0, 0);
+}
+.head1{
+    color: aqua;
+    font-size: 90px;
+    font-style: italic;
+    text-decoration:underline;
+    text-decoration-style: dotted;
+    text-decoration-color: rgb(141, 233, 2);
+}
+.para{
+    color:black(157, 127, 255);
+    font-family: Verdana;
+    font-size: 50px;
+    /* word-spacing: 20px;
+    letter-spacing: 20px; */
+    line-height: 60px;
+    font-weight: bold;
+    text-shadow: 8px 2px 5px yellow;
+
+}
