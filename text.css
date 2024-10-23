@@ -8,6 +8,7 @@ body{
     text-decoration:underline;
     text-decoration-style: dotted;
     text-decoration-color: rgb(141, 233, 2);
+    text-align: center;
 }
 .para{
     color:black(157, 127, 255);
