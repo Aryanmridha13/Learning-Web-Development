@@ -1,0 +1,14 @@
+.task{
+    
+    background-color: yellow;
+    height: 800px;
+    width: 600px;
+    border: black;
+    margin-left: 500px;
+    margin-top: 50px;
+    border: 10px solid black;
+    
+}
+.b{
+    text-align: center;
+}
