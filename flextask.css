@@ -1,0 +1,18 @@
+.red{
+    
+    display: flex;
+    background-color: yellow;
+    justify-content: space-evenly;
+    
+}
+.div1{
+    font-style: italic;
+}
+.name{
+    font-style: normal;
+}
+.submit{
+    color:white;
+    font-style: oblique;
+    background-color: red;
+}
