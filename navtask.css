@@ -1,0 +1,13 @@
+.navbar{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-evenly;
+
+}.img{
+    height: 50px;
+    width: 50px;
+}.navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 80px;
+}
