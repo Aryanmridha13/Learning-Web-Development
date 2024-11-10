@@ -16,3 +16,17 @@
     font-style: oblique;
     background-color: red;
 }
+.section{
+    height: 200px;
+    background-color: darkgray;
+}.section button{
+    color:white ;
+    background-color: red;
+    font-style:oblique;
+    margin-left: 90px;
+}.section h3{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-left: 50px;
+
+}
