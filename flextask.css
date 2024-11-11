@@ -17,16 +17,17 @@
     background-color: red;
 }
 .section{
+    display: flex;
+    justify-content: space-evenly;
     height: 200px;
     background-color: darkgray;
-}.section button{
+}.bu{
     color:white ;
     background-color: red;
-    font-style:oblique;
-    margin-left: 90px;
+
+    
 }.section h3{
     color: rgb(0, 0, 0);
-    font-size: 25px;
-    margin-left: 50px;
+  
 
 }
