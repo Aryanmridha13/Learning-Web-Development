@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightcoral;
+    height: 100px;
+    border: 2px black solid ;
+    border-radius: 20px;
+}.navbar ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-family: "Dancing Script", cursive;
+    list-style: none;
+}.navbar h2{
+    height:70px ;
+    width: 70px;
+    margin-top: 5px;
+    font-family: "Bungee Spice", sans-serif;
+    color:blue;
+    border: 1px black;
+}.navbar button{
+    color: black;
+    background-color: yellow;
+    border-radius: 20px;
+    font-family: "Dancing Script", cursive;
+}

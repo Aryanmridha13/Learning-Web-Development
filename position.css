@@ -1,0 +1,31 @@
+.container{
+    background-color: blue;
+    height: 400px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+
+
+}
+.ch{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+.chh{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 40px;
+    top: 40px;
+}
+div{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    position: fixed;
+}
