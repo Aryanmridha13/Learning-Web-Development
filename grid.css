@@ -1,0 +1,15 @@
+.wapper{
+background-color: yellow;
+height: 100vh;
+display: grid;
+grid-template-columns:repeat(4,auto);
+grid-template-rows: 300px 200px;
+}
+.ch{
+    background-color: red;
+    border: 2px solid black;
+   
+}.ch1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
