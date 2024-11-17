@@ -29,4 +29,12 @@
 .d5{
     grid-column-start: 1;
     grid-column-end: 5;
+    display: flex;
+    justify-content: space-between;
+    
+}.d5 ul{
+    display: flex;
+    text-align: right;
+    gap: 20px;
+    list-style: none;
 }
