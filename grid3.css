@@ -1,15 +1,16 @@
 .section{
     display: grid;
+    height: 100%;
     /* background-color: red; */
     border: 2px solid black;
-    grid-template-columns:  repeat(3 auto);
-    grid-template-rows: 250px 250px 250px;
+    grid-template-columns:  33.35% 33.35% 33.3%;
+    grid-template-rows: 250px 250px 250px 250px;
     
 }.ch1{
     border: 1px solid black;
     background-color: aqua;
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 4;
 }
 .ch2{
     border: 1px solid black;
@@ -19,15 +20,17 @@
 }.ch3{
     border: 1px solid black;
     background-color: brown;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }.ch4{
     border: 1px solid black;
     background-color: chartreuse;
     grid-column-start: 3;
-    grid-column-end: 5;
+    grid-column-end: 4;
 }.ch5{
     border: 1px solid black;
     grid-column-start: 2;
-    grid-column-end: 5;
+    grid-column-end: 4;
     background-color: yellow;
 
 }.ch6{
