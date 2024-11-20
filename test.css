@@ -1,0 +1,70 @@
+.section1{
+    text-align: center;
+    font-size: 20px;
+}
+.section2{
+   text-align: center;
+   padding: 80px;
+   background-color: black;
+   border:black ;
+   font-size: 20px;
+   border-radius: 5px;
+   
+}.section2 input{
+    padding: 30px;
+}.section2 select{
+    padding: 30px;
+}.section2 button{
+    padding: 30px;
+    border-radius: 10px;
+    width: 150px;
+    background-color: red;
+    color: aliceblue;
+}
+.section3{
+    text-align: center;
+}.section3 h1{
+    font-size: 30px;
+}
+.section3 p{
+    margin: 30px;
+}
+.section4 {
+    display: flex;
+}
+.section4 div{
+    border: 1px solid black;
+    margin: 10px;
+}
+.section4 div img{
+   height: 400px;
+   width: 450px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-right:20px ;
+}.section4 h3{
+    text-align: center;
+    font-size: 20px;
+}.section4 p{
+    margin-left: 10px;
+}.section4 h4{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.section4 button{
+    margin-left: 200px;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: blue;
+    color: aliceblue;
+  
+}
+.section5{
+    text-align: center;
+    padding: 50px;
+}.section5 button{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: red;
+    color: aliceblue;
+}
