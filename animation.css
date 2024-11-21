@@ -2,6 +2,43 @@
     padding: 0;
     margin: 0;
 }
+button{
+    padding: 20px;
+    background-color: aqua;
+    margin: 50px;
+}
+button:hover{
+    background-color: red;
+    color: white;
+    border-radius: 40px;
+    animation-name: disco;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes disco{
+    0%{ 
+        box-shadow: 0px 0px 4px 2px blue;
+        
+    }
+    30%{
+        box-shadow: 0px 0px 4px 2px red;
+        rotate: 45deg;
+    }
+    50%{
+        box-shadow: 0px 0px 4px 2px green;
+        rotate: 0deg;
+    }
+    70%{
+        box-shadow: 0px 0px 4px 2px yellow;
+        rotate: -45deg;
+    }
+    100%{
+        box-shadow: 0px 0px 4px 2px darkmagenta;
+        
+    }
+}
 .con1{
     height: 200px;
     width: 200px;
@@ -10,6 +47,8 @@
     position: relative;
     animation-name: demo;
     animation-duration: 3s;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
 
 
 }
@@ -21,10 +60,15 @@
     50%{
         top: 0;
         left: 400px;
+        background-color: cyan;
+        rotate: 360deg;
     }
     100%{
         top: 300px;
         left: 400px;
+        border: red solid 2px;
+        border-radius: 50%;
+        scale: 1.5;
     }
     
 }
