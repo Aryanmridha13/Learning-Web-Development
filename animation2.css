@@ -1,0 +1,21 @@
+#head1::first-letter{
+font-size: 70px;
+color: rgb(255, 0, 0);
+}
+#head1::selection{
+    background-color: rgb(204, 255, 0);
+}
+.p::first-line{
+    font-weight: bold;
+}
+input::placeholder{
+    color: blueviolet;
+}
+h2::before{
+    content: "THE  ";
+    color: red;
+}
+h2::after{
+    content: "  NAME";
+    color: rgb(255, 0, 183);
+}
