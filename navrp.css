@@ -15,6 +15,9 @@
 #check:checked~.navbar ul{
     display: block;
 }
+#check{
+    display: none;
+}
 
 @media screen and (max-width:600px) {
     .navbar label{
@@ -26,4 +29,7 @@
     /* #check{
         display: none;
     } */
+     button{
+        display: none;
+     }
 }
