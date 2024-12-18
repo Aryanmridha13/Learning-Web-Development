@@ -25,5 +25,5 @@ function btnone(){
 
 function theme(){
     let bd = document.body
-    bd.classList.toggle('theme')
+    bd.classList.toggle('theam')
 }
