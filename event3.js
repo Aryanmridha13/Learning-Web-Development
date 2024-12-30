@@ -16,6 +16,6 @@ function fun(){
     }
      
    
-    h1.classList.toggle('#head')
+    // h1.classList.toggle('#head')
 
 }
