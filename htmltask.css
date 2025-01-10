@@ -1,0 +1,37 @@
+.sec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+.sec2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+div i{
+    font-size: 40px;
+   margin: 30px;
+   /* background-color: aqua; */
+   border-radius: 50px;
+}
+.div{
+    background-color: aqua;
+    margin: 30px;
+    border-radius: 50px;
+}
+
+div  :hover{
+    padding: 8px;
+    background-color: chartreuse;
+    border-radius: 60px;
+    
+}
+/* i:hover{
+    padding: 7px;
+    color: white;
+} */
+div h3{
+    text-align: center;
+}
