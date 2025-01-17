@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Otp gen.....</h1>
+    <h2 id="h2"></h2>
+
+    <button id="btn" onclick="fun()">click here</button>
+
+    <script>
+     let x =[1,2,3,4,5,6,7,8,9,0,"A","B","C","@"];
+     let y='';
+    
+     fun=()=>{
+        for (let i = 0; i<5; i++) {
+            y+=x[random_gen()];
+
+            // document.querySelector('#h2').innerHTML=y
+            
+            
+        }
+        document.querySelector('#h2').innerHTML=y
+     }
+     const random_gen=()=>{
+    return Math.floor((Math.random() * x.length))
+
+   }
+
+    </script>
+</body>
+</html>
