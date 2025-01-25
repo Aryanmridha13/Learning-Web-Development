@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="" onsubmit="datastorage()" >
+        <label for="">name</label>
+        <input type="text" id="uname"><br><br>
+        <label for="">email</label>
+        <input type="text" id="umail"><br><br>
+        <label for="">password</label>
+        <input type="text" id="upass"><br><br>
+        <input type="submit">
+    </form>
+
+
+    <script>
+        let datastorage = ()=>{
+            let data ={
+                name : document.querySelector('#uname').value,
+                email : document.querySelector('#umail').value,
+                password : document.querySelector('#upass').value,
+            }
+            localStorage.setItem("userdata",JSON.stringify(data))
+        }
+    </script>
+</body>
+</html>
