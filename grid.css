@@ -13,3 +13,6 @@ grid-template-rows: 300px 200px;
     grid-column-start: 1;
     grid-column-end: 5;
 }
+.wapper div img{
+    border-radius: 180%;
+}
