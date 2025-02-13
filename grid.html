@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="grid.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <section class="wapper">
-        <div class="ch ch1 ">1</div>
-        <div class="ch"><img src="items/download.jpeg" alt=""></div>
+        <div class="ch ch1 " data-aos="zoom-out-down ">1</div>
+        <div class="ch" data-aos="zoom-in"><img src="items/download.jpeg" alt=""></div>
         <div class="ch">3</div>
         <div class="ch">4</div>
         <div class="ch">5</div>
@@ -18,5 +19,13 @@
         <div class="ch">6</div>
         <div class="ch">6</div>
     </section>
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

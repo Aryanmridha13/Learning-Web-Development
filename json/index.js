@@ -70,8 +70,8 @@ return false;
 }
 
 
-function finalupdate(){
-    let frmdata = {
+function finalupdate(id){
+    let frmdata1 = {
         id : document.querySelector('#id1').value,
         name : document.querySelector('#name1').value,
         age : document.querySelector('#age1').value,
@@ -84,7 +84,7 @@ function finalupdate(){
         headers:{
             'Content-type':'application/json'
         },
-        body:JSON.stringify(frmdata)
+        body:JSON.stringify(frmdata1)
         })
         .then(r=>alert("data update sucsefully.....!!!!"))
     

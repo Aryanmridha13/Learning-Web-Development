@@ -1,11 +1,11 @@
 {
   "student": [
     {
+      "id": "01a9",
       "name": "Aryan",
-      "age": 90,
-      "contact": 121,
-      "city": "bhopal",
-      "id": "01a9"
+      "age": "19",
+      "contact": "121",
+      "city": "bhopal"
     },
     {
       "id": "def0",
